@@ -2381,7 +2381,15 @@
 				position: relative;
 				display: inline-block;
 				margin-left: 1em;
+				color: #c0c0c0;
+
 			}
+
+			#nav > ul > li:hover{
+				color: #fff;
+				cursor: default;
+			}
+
 
 				#nav > ul > li a {
 					color: #c0c0c0;
@@ -2477,7 +2485,7 @@
 /* Banner */
 
 	#banner {
-		background-image: url("https://raw.githubusercontent.com/gmichnikov/portfolio/master/images/rocks.jpeg");
+		background-image: url("https://gmichnikov.github.io/portfolio/images/rocks.jpeg");
 		background-position: center center;
 		background-size: cover;
 		height: 28em;
@@ -2552,8 +2560,12 @@
 				color: #474747;
 			}
 
+				.wrapper.style3 .button .icon{
+					margin-right: 9px;
+				}
 				.wrapper.style3 .button:hover {
-					color: #37c0fb !important;
+					color: #474747 !important;
+					cursor: default;
 				}
 
 /* CTA */
@@ -3155,6 +3167,11 @@
 				text-align: left;
 			}
 
+			.style3 .button {
+				display: block;
+				margin: 10px auto;
+				width: 100%;			
+			}
 	}
 
 
