@@ -3170,7 +3170,7 @@
 			.style3 .button {
 				display: block;
 				margin: 10px auto;
-				width: 100%;			
+				width: 100%;
 			}
 	}
 
@@ -3178,4 +3178,10 @@
 
 .style2 h2 {
 	margin-bottom: 0;
+}
+
+
+.devicon-github-plain {
+	font-size: 36px;
+	color: rgb(55, 192, 251) !important;
 }
