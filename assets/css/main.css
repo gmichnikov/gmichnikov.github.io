@@ -3191,3 +3191,11 @@
 #sidebar section {
 	margin-bottom: 30px;
 }
+
+
+.education img {
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	margin: 10px;
+}
