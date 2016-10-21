@@ -3199,3 +3199,16 @@
 	height: 48px;
 	margin: 10px;
 }
+
+.education ul {
+	margin: 10px 0 20px 0;
+}
+
+.education li {
+	list-style: square;;
+}
+
+
+.education .title {
+	font-weight: bold;
+}
