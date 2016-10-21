@@ -1906,8 +1906,9 @@
 
 	header.major {
 		text-align: center;
-		margin: 0 0 2em 0;
+		margin: 0 0 0 0;
 	}
+/*edited*/
 
 		header.major h2 {
 			font-size: 2.25em;
@@ -2344,13 +2345,14 @@
 		#header h1 {
 			padding: 0 0 2.75em 0;
 			margin: 0;
+			font-size: 2.5em;
 		}
 
 			#header h1 a {
-				font-size: 1.5em;
 				letter-spacing: -0.025em;
 				border: 0;
 			}
+			/*edited*/
 
 	#nav {
 		cursor: default;
@@ -2660,11 +2662,12 @@
 		/* Header */
 
 			#header {
-				padding: 2em 0 0 0;
+				padding: 0em 0 0 0;
 			}
 
 				#header h1 {
-					padding: 0 0 1.75em 0;
+					padding: 0 0 0 0;
+					/*edited*/
 				}
 
 		/* Banner */
@@ -2676,8 +2679,9 @@
 		/* Wrapper */
 
 			.wrapper {
-				padding: 3em 0 1em 0;
+				padding: 1em 0 1em 0;
 			}
+/*edited*/
 
 		/* CTA */
 
@@ -2790,7 +2794,7 @@
 				}
 
 				#banner header .button {
-					margin: 1em 0 0 0;
+					margin: 1em 0.5em 0 0.5em;
 				}
 
 		/* CTA */
@@ -3102,8 +3106,10 @@
 			input[type="reset"],
 			input[type="button"],
 			.button {
-				width: 100%;
-				display: block;
+				width: 40%;
+				margin: 10px;
+				/*display: block;*/
+				/*edited*/
 			}
 
 		/* Box */
@@ -3150,3 +3156,9 @@
 			}
 
 	}
+
+
+
+.style2 h2 {
+	margin-bottom: 0;
+}
