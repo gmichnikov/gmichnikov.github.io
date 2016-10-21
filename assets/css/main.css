@@ -3181,7 +3181,13 @@
 }
 
 
-.devicon-github-plain {
-	font-size: 36px;
-	color: rgb(55, 192, 251) !important;
+#sidebar i {
+	display: inline-block;
+	font-size: 48px;
+	margin: 10px;
+	/*color: rgb(55, 192, 251) !important;*/
+}
+
+#sidebar section {
+	margin-bottom: 30px;
 }
