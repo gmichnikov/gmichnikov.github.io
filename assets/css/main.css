@@ -3260,3 +3260,7 @@
 .style1 p, ol {
 	margin-bottom: 1em;
 }
+
+.resume-email-buttons {
+	display: inline-block;
+}
