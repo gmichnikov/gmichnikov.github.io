@@ -3244,3 +3244,11 @@
 .style1 a {
 	border-bottom: 0;
 }
+
+.style1 li {
+	list-style: decimal;
+}
+
+.style1 p, ol {
+	margin-bottom: 1em;
+}

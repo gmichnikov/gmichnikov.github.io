@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<!--
+	Arcana by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Greg Michnikov :: Chess Buddy</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header">
+
+					<!-- Logo -->
+						<h1>Greg<em> Michnikov</em></h1>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+
+								<li class="current">
+									<a href="index.html#projects">Projects</a>
+									<ul>
+										<li><a href="untrippd.html">Untrippd</a></li>
+										<li><a href="gm-84-plus.html">GM-84 Plus</a></li>
+										<li><a href="chess-buddy.html">Chess Buddy</a></li>
+									</ul>
+								</li>
+								<li><a href="index.html#contact">Contact</a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+			<!-- Main -->
+				<section class="wrapper style1">
+					<div class="container">
+						<div id="content">
+
+							<!-- Content -->
+
+								<article>
+									<header>
+										<h2>
+											<a class="project-link" href="https://github.com/gmichnikov/chess-buddy" target="_blank">Chess Buddy</a>
+										</h2>
+										<p class="project-description">A terminal-based chess game that offers 1-player and 2-player mode</p>
+									</header>
+
+									<span class="image featured project-span"><a href="https://github.com/gmichnikov/chess-buddy" target="_blank"><img class="project-image" src="images/chess-buddy.gif" alt="" /></a></span>
+
+									<p>Chess Buddy is a basic Chess game written entirely in ruby. It allows the user(s) to play Human vs. Human or Human vs. Computer. Users can also watch a Computer vs. Computer game play out.
+									</p>
+									<p>
+									Chess Buddy has two primary foci. The first is extensive use of class inheritance to structure the code for the six different chess pieces. Rooks, Bishops, and Queens all inherit from a SlidingPiece class. Each of these pieces is able to move multiple spots in one of several directions, ultimately landing on an empty square or an opponent's piece. These shared abilities are captured in the parent class, while the differences (namely, diagonal vs. horizontal/vertical movement) is reserved for each piece's class. Similarly, Kings and Knights have a common SteppingPiece parent class, as each of these pieces can only move to 8 specififc squares on the board. The specific movements to get to those squares (e.g. up 2 over 1 vs.up 1 over 1) are in the child classes.
+									</p>
+									<p>
+										The other focus is a custom Computer Player AI. Chess Buddy categorizes all valid moves on several dimensions:</p>
+										<ol>
+											<li>In Check: Does the move put the opponent in check?</li>
+											<li>Safe vs. At Risk: Does the move put given piece in a position where the opponent could immediately capture it on the next turn?</li>
+											<li>Capture: Does the move capture a piece?</li>
+											<li>Valuable Capture: Does the move capture a piece with value greater than or equal to the value of the capturing piece?</li>
+										</ol>
+										<p>
+											Chess Buddy's AI then chooses a move for the Computer Player in the following order of preference: 1. Safe and Valuable Capture 2. Safe and In Check 3. Valuable Capture 4. Safe and Capture 5. Safe 6. In Check 7. Capture 8. None of the above. In order to play Chess Buddy, users can download the code from <a href="http://www.github.com/gmichnikov/chess-buddy" target="_blank">Github</a> and run "ruby chess.rb" in Terminal. More detailed instructions can be found on the Github page.
+									</p>
+
+								</article>
+
+						</div>
+					</div>
+				</section>
+
+				<!-- Footer -->
+					<div id="footer">
+
+
+						<!-- Icons -->
+							<ul class="icons">
+								<li><a href="https://github.com/gmichnikov" class="icon fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/gregmichnikov" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="mailto:greg.michnikov@gmail.com" class="icon fa-paper-plane"><span class="label">Email</span></a></li>
+								<li><a href="assets/Greg-Michnikov-Resume.pdf" class="icon fa-file-pdf-o"><span class="label">Resume</span></a></li>
+							</ul>
+
+						<!-- Copyright -->
+							<div class="copyright">
+								<ul class="menu">
+									<li>&copy; Greg Michnikov</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								</ul>
+							</div>
+
+					</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
