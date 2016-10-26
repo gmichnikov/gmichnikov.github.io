@@ -2490,7 +2490,7 @@
 /* Banner */
 
 	#banner {
-		background-image: url("http://gregmichnikov.com/images/rocks.jpeg");
+		background-image: url("../../images/jc.jpg");
 		background-position: center center;
 		background-size: cover;
 		height: 28em;
@@ -3216,4 +3216,31 @@
 
 .education .title {
 	font-weight: bold;
+}
+
+.project-link {
+	border-bottom: none;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.project-description {
+	margin-bottom: 1em;
+}
+
+.featured img.project-image {
+	height: 320px;
+	width: auto;
+	border-radius: 0;
+	border: 1px solid #eee;
+}
+
+.featured.project-span {
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.style1 a {
+	border-bottom: 0;
 }
