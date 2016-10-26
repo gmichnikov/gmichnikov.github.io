@@ -2886,6 +2886,7 @@
 					text-align: center;
 					color: #fff;
 					z-index: 1;
+					font-size: 30px;
 				}
 
 					#titleBar .title em {
@@ -3218,10 +3219,17 @@
 	font-weight: bold;
 }
 
-.project-link {
-	border-bottom: none;
+.style1 a.project-link {
+	/*border-bottom: dotted 1px;*/
+	color: #37c0fb;
 	display: inline-block;
-	margin-right: 10px;
+	margin-left: 10px;
+	font-size: 18px;
+}
+
+.style1 a.project-link:hover {
+	/*border-bottom: none;*/
+	color: navy;
 }
 
 .project-description {
