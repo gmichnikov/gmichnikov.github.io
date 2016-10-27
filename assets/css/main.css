@@ -3210,10 +3210,6 @@
 	margin: 10px 0 20px 0;
 }
 
-.education li {
-	list-style: square;;
-}
-
 
 .education .title {
 	font-weight: bold;
@@ -3255,6 +3251,11 @@
 
 .style1 li {
 	list-style: decimal;
+	list-style-position: inside;
+}
+
+.style1 li span {
+	font-weight: bold;
 }
 
 .style1 p, ol {
@@ -3263,4 +3264,17 @@
 
 .resume-email-buttons {
 	display: inline-block;
+}
+
+.education li {
+	list-style: disc;
+	list-style-position: inside;
+	text-indent: -2em;
+	padding-left: 2em;
+}
+
+.education li span {
+	position: relative;
+	left: -15px;
+	font-weight: normal;
 }
