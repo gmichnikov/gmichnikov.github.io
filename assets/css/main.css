@@ -2092,6 +2092,7 @@
 
 		.icon.major:hover {
 			cursor: pointer;
+			background-color: navy;
 		}
 
 			.icon.major:before {
@@ -3223,7 +3224,7 @@
 	font-size: 18px;
 }
 
-.style1 a.project-link:hover {
+.style1 a:hover {
 	/*border-bottom: none;*/
 	color: navy;
 }
@@ -3277,4 +3278,8 @@
 	position: relative;
 	left: -15px;
 	font-weight: normal;
+}
+
+.resume-email-buttons a:hover {
+	background-color: navy;
 }
